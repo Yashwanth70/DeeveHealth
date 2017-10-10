@@ -12,7 +12,7 @@ class App extends Component{
 	render(){
 		return(
 			<div>
-				<h2>App</h2>
+				<h2>Welcome to DeeveHealth Dashboard</h2>
 				<button type="button" onClick={()=>this.signOut()}>Sign Out</button>
 			</div>
 		);

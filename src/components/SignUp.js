@@ -27,8 +27,8 @@ class SignUp extends Component{
 		return(
 			<div>
 				<h2>SignUp</h2>
-				<div>
-					<input type="text" placeholder="username" onChange={event=>this.setState({email:event.target.value})}/>
+				<div className='flex-item'>
+					<input type="text" placeholder="Email" onChange={event=>this.setState({email:event.target.value})}/>
 					<input type="password" placeholder="password" onChange={event=>this.setState({password:event.target.value})}/>
 					<button type="button" onClick={()=>this.signUp()}>SignUp</button>
 				</div>

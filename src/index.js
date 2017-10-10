@@ -6,6 +6,7 @@ import {firebaseApp} from './firebase';
 import App from './components/App';
 import SignUp from './components/SignUp';
 import SignIn from './components/SignIn';
+import './App.css'
 
 firebaseApp.auth().onAuthStateChanged(user =>{
 	if(user){
